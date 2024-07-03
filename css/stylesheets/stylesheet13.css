@@ -1,0 +1,19 @@
+.container
+{
+    width: 100px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* wrap            wrap-reverse */
+    flex-wrap: wrap;
+    /* Horizontal alignment */
+    justify-content: ;
+    
+}
+
+.box
+{
+    border: 1px solid rgb(58, 50, 50);
+    background-color: blueviolet;
+}
