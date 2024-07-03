@@ -17,9 +17,10 @@ div{
 body
 {
     background-image: url("../../img/flower.jpg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     /* cover contain pe
     rcentage  */
-    background-size: 75%;
+    background-size: 20%;
+    background-position: right bottom -60px;
 }
 
