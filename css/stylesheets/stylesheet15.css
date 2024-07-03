@@ -1,0 +1,35 @@
+
+
+@media screen and (max-width:1600px) {
+    body
+    {
+        background-color: rgb(132, 5, 94);
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    body
+    {
+        background-color: rgb(255, 60, 0);
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:300px){
+    
+    body
+    {
+        font-size: 12px;
+        background-color: aqua;
+       
+    }
+
+    h1
+    {
+        display: none;
+    }
+    
+}
+

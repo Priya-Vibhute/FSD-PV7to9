@@ -1,14 +1,23 @@
 .container
 {
-    width: 100px;
+    /* width: 100px; */
     background-color: antiquewhite;
     border: 2px solid black;
     display: flex;
     flex-direction: row;
+    height: 600px;
     /* wrap            wrap-reverse */
     flex-wrap: wrap;
     /* Horizontal alignment */
-    justify-content: ;
+    /* left right center  */
+    /* justify-content:space-evenly ; */
+
+    /* vertical align */
+    /* stretcg center flex-start flex-end */
+    /* align-items: stretch; */
+
+
+    
     
 }
 
@@ -16,4 +25,15 @@
 {
     border: 1px solid rgb(58, 50, 50);
     background-color: blueviolet;
+}
+
+#box1
+{
+    flex-grow: 2;
+    background-image: url(../../img/flower.jpg);
+}
+
+#box2
+{
+    flex-grow: 1;
 }
